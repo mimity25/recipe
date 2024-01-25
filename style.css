@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(219, 211, 211);
+}
+
+.logo img{
+    max-width: 100px;
+    padding: 0;
+    margin: center;
+}
+
+.frame{
+    background-color: white;
+    height: 800px;
+    width: 1800px;
+    margin: auto;
+    margin-top: 30px;
+}
