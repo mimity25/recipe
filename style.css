@@ -1,17 +1,68 @@
-body{
+body {
     background-color: rgb(219, 211, 211);
+    margin: 0;
 }
 
-.logo img{
-    max-width: 100px;
-    padding: 0;
-    margin: center;
-}
-
-.frame{
-    background-color: white;
-    height: 800px;
-    width: 1800px;
-    margin: auto;
+.logo {
+    text-align: center;
     margin-top: 30px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Скриване на чекбоксите */
+input[type="checkbox"] {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#recipe-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container {
+    text-align: center;
+}
+.toggle-btn {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(148, 145, 145);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background-color: rgb(56, 55, 55);
+}
+
+#ingredients, #instructions {
+    display: none;
+    margin-top: 20px;
+}
+
+#toggle-ingredients:checked ~ #ingredients,
+#toggle-instructions:checked ~ #instructions {
+    display: block;
 }
