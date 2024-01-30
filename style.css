@@ -19,14 +19,41 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Скриване на чекбоксите */
-input[type="checkbox"] {
-    display: none;
-}
-
 h1 {
     text-align: center;
     color: #333;
+}
+
+.centered-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.centered-icons div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.centered-icons p {
+    margin: 10px;
+
+}
+
+.centered-icons i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Скриване на чекбоксите */
+input[type="checkbox"] {
+    display: none;
 }
 
 #recipe-image {
